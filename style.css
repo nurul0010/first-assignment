@@ -6,7 +6,7 @@ body{
 #first-section{
     display: flex;
 }
-.sec1-text{
+#sec1-text{
     margin-top: 150px;
     margin-left: 100px;
 }
