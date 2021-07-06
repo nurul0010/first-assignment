@@ -3,28 +3,65 @@ body{
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-#first-section{
+.flex{
     display: flex;
 }
+/* section 1 */
 #sec1-text{
-    margin-top: 150px;
+    margin-top: 160px;
     margin-left: 100px;
 }
-.sec1-text h1{
-    font-size: 40px;
+#sec1-text h1{
+    font-size: 50px;
     letter-spacing: 1.5px;
 }
 #sec1-img img{
     margin-left: 100px;
     margin-top: 50px;
 }
+/* section 1 */
 .btn a{
     text-decoration: none;
     color: white;
     background: linear-gradient(blue,cyan);
-    padding: 5px 15px;
+    padding: 10px 20px;
     border-radius: 15px;
+    box-shadow: 5px 7px 5px grey;
 }
 .color-text{
     color: blue;
+}
+/* section 2 */
+#sec2{
+    background: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sec2-img img{
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+#sec2-text{
+    width: 80%;
+    margin-top: 150px;
+    margin-right: 50px;
+    padding: 10px;
+}
+#sec2-text h1{
+    font-size: 40px;
+}
+#sec2-text p{
+    text-align: justify;
+}
+/* section 2 */
+/* section 3 */
+#sec3-text{
+    text-align: center;
+    margin-top: 100px;
+}
+#sec3-text p{
+    padding-left: 300px;
+    padding-right: 300px;
 }
